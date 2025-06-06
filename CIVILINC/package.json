@@ -1,0 +1,51 @@
+{
+  "name": "civilinc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:coverage": "vue-cli-service test:unit --coverage"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@lottiefiles/vue-lottie-player": "1.0.4",
+    "axios": "^1.9.0",
+    "chart.js": "^3.9.1",
+    "dangerous-html": "0.1.13",
+    "leaflet": "^1.9.4",
+    "next": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "socket.io-client": "^4.8.1",
+    "vue": "^2.6.7",
+    "vue-meta": "^2.2.1",
+    "vue-router": "^3.0.2",
+    "vuelidate": "^0.7.7",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@vue/babel-preset-app": "^5.0.8",
+    "@vue/cli-plugin-babel": "^5.0.4",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/test-utils": "^2.4.6",
+    "babel-jest": "^30.0.0-beta.3",
+    "jest": "^27.5.1",
+    "vue-template-compiler": "^2.6.7"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
